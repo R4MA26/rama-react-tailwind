@@ -1,5 +1,6 @@
 import logo from "./assets/images/photo-jpg.png";
 import rama from "./assets/images/rama1.jpg";
+import { UserCircleIcon } from "@heroicons/react/solid";
 import "./App.css";
 import "./index.css";
 
@@ -20,7 +21,10 @@ function App() {
           <div class="sm:w-1/4 p-2">
             <div class="bg-white px-6 py-8 rounded-lg shadow-lg text-center">
               <h2 className="text-bold font-medium">Agenda Pembelajaran</h2>
-              <h2 className="text-blue-500 block">Pemateri</h2>
+              <h2 className="text-gray-400 block">
+                <UserCircleIcon className="h-5 w-5 text-blue-500 icon1" />
+                Pemateri
+              </h2>
               <div class="mb-3">
                 <img
                   class="w-auto mx-auto rounded-full py-3 px-4"
@@ -40,9 +44,12 @@ function App() {
             <div class="bg-white px-6 py-8 rounded-lg shadow-lg text-center">
               <h2 className="text-bold font-medium">
                 Agenda Keorganisasisan :{" "}
-                <span className="text-blue-500 text-smaller">Piket</span>
+                <span className="text-gray-400 text-smaller">Piket</span>
               </h2>
-              <h2 className="text-blue-500 block">BPH Pendamping</h2>
+              <h2 className="text-gray-400 block">
+                <UserCircleIcon className="h-5 w-5 text-blue-500 icon1" />
+                BPH Pendamping
+              </h2>
               <div class="mb-3">
                 <img
                   class="w-auto mx-auto rounded-full py-3 px-4"
@@ -62,9 +69,12 @@ function App() {
             <div class="bg-white px-6 py-8 rounded-lg shadow-lg text-center">
               <h2 className="text-bold font-medium">
                 Agenda Keorganisasisan :{" "}
-                <span className="text-blue-500 text-smaller">Nginap</span>
+                <span className="text-gray-400 text-smaller">Nginap</span>
               </h2>
-              <h2 className="text-blue-500 block">BPH Pendamping</h2>
+              <h2 className="text-gray-400 block">
+                <UserCircleIcon className="h-5 w-5 text-blue-500 icon1" />
+                BPH Pendamping
+              </h2>
               <div class="mb-3">
                 <img
                   class="w-auto mx-auto rounded-full py-3 px-4"
