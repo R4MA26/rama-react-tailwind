@@ -16,7 +16,7 @@ function App() {
         </div>
       </header>
 
-      <div id="container" class="w-4/5 mx-auto ">
+      <div id="container" class="w-4/5 mx-auto lg:w-11/12">
         <div class="flex flex-col sm:flex-row">
           <div class="sm:w-1/4 md:w-1/2 lg:w-2/5 1xl:w-80 2xl:w-1/4 p-2 md:flex-shrink-0 lg:flex-shrink-0">
             <div class="bg-white px-6 py-8 rounded-lg shadow-lg text-center">
