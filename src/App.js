@@ -9,16 +9,16 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="flex flex-wrap ">
-          <h4 className="flex-auto text-xl text-center">
+          <h4 className="flex-auto text-xl text-center md:text-right lg:text-right 1xl:text-center">
             <img src={logo} className="App-logo " alt="logo" />
             KeDai Computerworks | Papan Informasi
           </h4>
         </div>
       </header>
 
-      <div id="container" class="w-4/5 mx-auto">
+      <div id="container" class="w-4/5 mx-auto ">
         <div class="flex flex-col sm:flex-row">
-          <div class="sm:w-1/4 p-2">
+          <div class="sm:w-1/4 md:w-1/2 lg:w-2/5 1xl:w-80 2xl:w-1/4 p-2 md:flex-shrink-0 lg:flex-shrink-0">
             <div class="bg-white px-6 py-8 rounded-lg shadow-lg text-center">
               <h2 className="text-bold font-medium">Agenda Pembelajaran</h2>
               <h2 className="text-gray-400 block">
@@ -40,7 +40,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div class="sm:w-1/4 p-2">
+          <div class="sm:w-1/4 p-2 md:w-1/2 lg:w-2/5 1xl:w-80 2xl:w-1/4 md:flex-shrink-0">
             <div class="bg-white px-6 py-8 rounded-lg shadow-lg text-center">
               <h2 className="text-bold font-medium">
                 Agenda Keorganisasisan :{" "}
@@ -65,11 +65,11 @@ function App() {
               </div>
             </div>
           </div>
-          <div class="sm:w-1/4 p-2">
+          <div class="sm:w-1/4 p-2 md:w-1/2 lg:w-2/5 1xl:w-80 2xl:w-1/4 md:flex-shrink-0">
             <div class="bg-white px-6 py-8 rounded-lg shadow-lg text-center">
               <h2 className="text-bold font-medium">
                 Agenda Keorganisasisan :{" "}
-                <span className="text-gray-400 text-smaller">Nginap</span>
+                <span className="text-gray-400 text-smaller ">Nginap</span>
               </h2>
               <h2 className="text-gray-400 block">
                 <UserCircleIcon className="h-5 w-5 text-blue-500 icon1" />
@@ -90,10 +90,12 @@ function App() {
               </div>
             </div>
           </div>
-          <div class="sm:w-1/4 p-2">
+          <div class="sm:w-1/4 p-2 md:w-1/2 lg:w-2/5 1xl:w-80 2xl:w-1/4 md:flex-shrink-0">
             <div class="bg-white px-6 py-8 rounded-lg shadow-lg text-center">
               <h2 className="text-bold font-medium">Admin EXTRACT XIX</h2>
-              <h2 className="text-white block">.</h2>
+              <h2 className="text-white block">
+                <UserCircleIcon className="h-5 w-5 text-blue-500 icon1" />
+              </h2>
               <div class="mb-3">
                 <img
                   class="w-auto mx-auto rounded-full py-3 px-4"
