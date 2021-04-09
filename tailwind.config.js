@@ -10,7 +10,6 @@ module.exports = {
       md: "768px",
       lg: "1024px",
       xl: "1280px",
-      "1xl": "1280px",
       "2xl": "1536px",
     },
     colors: {
@@ -29,6 +28,10 @@ module.exports = {
       pink: colors.pink,
     },
     spacing: {
+      sm: "8px",
+      md: "16px",
+      lg: "24px",
+      xl: "48px",
       px: "1px",
       0: "0px",
       0.5: "0.125rem",
