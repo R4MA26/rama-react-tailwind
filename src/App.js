@@ -17,8 +17,8 @@ function App() {
       </header>
 
       <div id="container" class="w-4/5 mx-auto">
-        <div class="flex flex-wrap sm:flex-row md:flex-wrap lg:flex-wrap xl:flex-nowarp">
-          <div class="sm:w-1/4 p-2 md:w-1/2 xl:w-1/4">
+        <div class="flex flex-wrap sm:flex-row md:flex-wrap lg:flex-nowarp">
+          <div class="sm:w-1/4 p-2 md:w-1/2 lg:w-3/12 xl:w-1/4">
             <div class="bg-white px-6 py-8 rounded-lg shadow-lg text-center">
               <h2 className="text-bold font-medium">Agenda Pembelajaran</h2>
               <h2 className="text-gray-400 block">
@@ -40,7 +40,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div class="sm:w-1/4 p-2 md:w-1/2 xl:w-1/4">
+          <div class="sm:w-1/4 p-2 md:w-1/2 lg:w-3/12 xl:w-1/4">
             <div class="bg-white px-6 py-8 rounded-lg shadow-lg text-center">
               <h2 className="text-bold font-medium">
                 Agenda Keorganisasisan :{" "}
@@ -65,7 +65,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div class="sm:w-1/4 p-2 md:w-1/2 xl:w-1/4">
+          <div class="sm:w-1/4 p-2 md:w-1/2 lg:w-3/12 xl:w-1/4">
             <div class="bg-white px-6 py-8 rounded-lg shadow-lg text-center">
               <h2 className="text-bold font-medium">
                 Agenda Keorganisasisan :{" "}
@@ -90,7 +90,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div class="sm:w-1/4 p-2 md:w-1/2 xl:w-1/4">
+          <div class="sm:w-1/4 p-2 md:w-1/2 lg:w-3/12 xl:w-1/4">
             <div class="bg-white px-6 py-8 rounded-lg shadow-lg text-center">
               <h2 className="text-bold font-medium">Admin EXTRACT XIX</h2>
               <h2 className="text-white block">
