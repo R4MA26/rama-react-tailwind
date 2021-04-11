@@ -21,8 +21,8 @@ function App() {
           <div class="sm:w-1/4 p-2 md:w-1/2 lg:w-3/12 xl:w-1/4 ">
             <div class="bg-white px-6 py-8 rounded-lg shadow-lg text-center lg:h-full">
               <h2 className="text-bold font-medium">Agenda Pembelajaran</h2>
-              <h2 className="text-gray-400 block">
-                <UserCircleIcon className="h-5 w-5 text-blue-500 icon1 lg:mb-7" />
+              <h2 className="text-gray-400 block lg:mb-7">
+                <UserCircleIcon className="h-5 w-5 text-blue-500 icon1" />
                 Pemateri
               </h2>
               <div class="mb-3">
@@ -46,7 +46,7 @@ function App() {
                 Agenda Keorganisasisan :{" "}
                 <span className="text-gray-400 text-smaller">Piket</span>
               </h2>
-              <h2 className="text-gray-400 block">
+              <h2 className="text-gray-400 block lg:mb-7">
                 <UserCircleIcon className="h-5 w-5 text-blue-500 icon1" />
                 BPH Pendamping
               </h2>
@@ -71,7 +71,7 @@ function App() {
                 Agenda Keorganisasisan :{" "}
                 <span className="text-gray-400 text-smaller ">Nginap</span>
               </h2>
-              <h2 className="text-gray-400 block">
+              <h2 className="text-gray-400 block lg:mb-7">
                 <UserCircleIcon className="h-5 w-5 text-blue-500 icon1" />
                 BPH Pendamping
               </h2>
