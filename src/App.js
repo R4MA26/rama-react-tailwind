@@ -24,11 +24,11 @@ function App() {
           <div class="sm:w-1/4 p-2 md:w-1/2 lg:w-3/12 xl:w-1/4 ">
             <div class="bg-white px-6 py-8 rounded-lg shadow-lg text-center lg:h-full">
               <h2 className="text-bold font-medium">Agenda Pembelajaran</h2>
-              <h2 className="text-gray-400 block lg:mb-7">
-                <UserCircleIcon className="h-5 w-5 text-blue-500 icon1" />
+              <h2 className="text-gray-400 block lg:mb-7 ">
+                <UserCircleIcon className="h-5 w-5 text-blue-500 icon1 " />
                 Pemateri
               </h2>
-              <div class="mb-3">
+              <div class="mb-9">
                 <img
                   class="w-auto mx-auto rounded-full py-3 px-4"
                   src={rama}
@@ -101,7 +101,7 @@ function App() {
               <h2 className="text-white block">
                 <UserCircleIcon className="h-5 w-5 text-blue-500 icon1 lg:mb-7" />
               </h2>
-              <div class="mb-3">
+              <div class="mb-9">
                 <img
                   class="w-auto mx-auto rounded-full py-3 px-4"
                   src={rama}
