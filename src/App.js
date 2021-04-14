@@ -4,6 +4,9 @@ import { UserCircleIcon } from "@heroicons/react/solid";
 import { ArchiveIcon } from "@heroicons/react/solid";
 import { PresentationChartLineIcon } from "@heroicons/react/solid";
 import { DesktopComputerIcon } from "@heroicons/react/solid";
+import { UploadIcon } from "@heroicons/react/solid";
+import { VideoCameraIcon } from "@heroicons/react/solid";
+import { TerminalIcon } from "@heroicons/react/solid";
 import "./App.css";
 import "./index.css";
 
@@ -121,45 +124,84 @@ function App() {
         <div class="h-100 w-full flex items-center justify-left bg-teal-lightest font-sans">
           <div class="bg-white rounded shadow-lg p-6 m-4 w-full lg:w-3/4 lg:max-w-lg">
             <div class="mb-4">
-              <h1 class="text-grey-darkest">
+              <h1 class="text-white text-center px-4 py-2 bg-black">
                 <ArchiveIcon className="h-5 w-5 text-blue-500 icon1" />
                 Tools & Properties | Inventaris
               </h1>
               <div class="flex mt-4">
-                <input
+                {/* <input
                   class="shadow appearance-none border rounded w-full py-2 px-3 mr-4 text-grey-darker"
                   placeholder="Add Todo"
                 />
                 <button class="flex-no-shrink p-2 border-2 rounded text-teal border-teal hover:text-white hover:bg-teal">
                   Add
-                </button>
+                </button> */}
               </div>
             </div>
             <div>
               <div class="flex mb-4 items-center">
                 <p class="w-full text-grey-darkest">
-                  <PresentationChartLineIcon className="h-5 w-5 text-blue-500 icon1" />
+                  <PresentationChartLineIcon className="h-5 w-5 text-black icon1" />
                   {""}
-                  Proyektor
+                  Proyektor : 1
                 </p>
-                <button class="flex-no-shrink p-2 ml-4 mr-2 border-2 rounded hover:text-white text-green border-green hover:bg-green">
-                  Done
-                </button>
-                <button class="flex-no-shrink p-2 ml-2 border-2 rounded text-red border-red hover:text-white hover:bg-red">
+                <p class="w-full text-grey-darkest">
+                  <TerminalIcon className="h-5 w-5 text-black icon1" />
+                  {""}
+                  Terminal : 8
+                </p>
+                {/* <button class="flex-no-shrink p-2 ml-2 border-2 rounded text-red border-red hover:text-white hover:bg-red">
                   Remove
-                </button>
+                </button> */}
               </div>
               <div class="flex mb-4 items-center">
                 <p class="w-full  text-green">
-                  <DesktopComputerIcon className="h-5 w-5 text-blue-500 icon1" />
-                  Monitor
+                  <DesktopComputerIcon className="h-5 w-5 text-black icon1" />
+                  Monitor : 1
                 </p>
-                <button class="flex-no-shrink p-2 ml-4 mr-2 border-2 rounded hover:text-white text-grey border-grey hover:bg-grey">
+                <p class="w-full  text-green">
+                  <VideoCameraIcon className="h-5 w-5 text-black icon1" />
+                  Cctv : 4
+                </p>
+                {/* <button class="flex-no-shrink p-2 ml-2 border-2 rounded text-red border-red hover:text-white hover:bg-red">
+                  Remove
+                </button> */}
+              </div>
+              <div class="flex mb-4 items-center">
+                <p class="w-full  text-green">
+                  <UploadIcon className="h-5 w-5 text-black icon1" />
+                  Router : 1
+                </p>
+                {/* <button class="flex-no-shrink p-2 ml-4 mr-2 border-2 rounded hover:text-white text-grey border-grey hover:bg-grey">
                   Not Done
                 </button>
                 <button class="flex-no-shrink p-2 ml-2 border-2 rounded text-red border-red hover:text-white hover:bg-red">
                   Remove
+                </button> */}
+              </div>
+              <div class="flex mb-4 items-center">
+                <p class="w-full  text-green">
+                  <DesktopComputerIcon className="h-5 w-5 text-black icon1" />
+                  Laptop : 1
+                </p>
+                {/* <button class="flex-no-shrink p-2 ml-4 mr-2 border-2 rounded hover:text-white text-grey border-grey hover:bg-grey">
+                  Not Done
                 </button>
+                <button class="flex-no-shrink p-2 ml-2 border-2 rounded text-red border-red hover:text-white hover:bg-red">
+                  Remove
+                </button> */}
+              </div>
+              <div class="flex mb-4 items-center">
+                <p class="w-full  text-green">
+                  <DesktopComputerIcon className="h-5 w-5 text-black icon1" />
+                  Tv : 1
+                </p>
+                {/* <button class="flex-no-shrink p-2 ml-4 mr-2 border-2 rounded hover:text-white text-grey border-grey hover:bg-grey">
+                  Not Done
+                </button>
+                <button class="flex-no-shrink p-2 ml-2 border-2 rounded text-red border-red hover:text-white hover:bg-red">
+                  Remove
+                </button> */}
               </div>
             </div>
           </div>
